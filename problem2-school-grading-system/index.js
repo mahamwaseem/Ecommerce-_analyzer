@@ -1,5 +1,5 @@
-import { Student } from './student.js';
-import { GradeProcessor } from './gradeprocessor.js';
+const Student = require('./student.js');
+const GradeProcessor = require('./gradeprocessor.js');
 
 const students = [
   new Student('Alice', [85, 89, 87]),

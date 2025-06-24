@@ -1,6 +1,4 @@
-import { Student } from './student.js';
-
-export class GradeProcessor {
+class GradeProcessor {
   constructor(students) {
     this.students = students;
   }
@@ -26,3 +24,5 @@ export class GradeProcessor {
     return report;
   }
 }
+
+module.exports = GradeProcessor;
