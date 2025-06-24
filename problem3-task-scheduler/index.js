@@ -1,5 +1,5 @@
-import { Task } from './Task.js';
-import { TaskScheduler } from './TaskScheduler.js';
+const Task = require('./Task');
+const TaskScheduler = require('./TaskScheduler');
 
 const tasks = [
   new Task('Review PR', 'emp1', 2),

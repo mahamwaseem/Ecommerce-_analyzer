@@ -1,6 +1,4 @@
-import { Task } from './Task.js';
-
-export class TaskScheduler {
+class TaskScheduler {
   constructor(tasks) {
     this.tasks = tasks;
   }
@@ -22,3 +20,5 @@ export class TaskScheduler {
     return schedule;
   }
 }
+
+module.exports = TaskScheduler;
