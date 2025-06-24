@@ -4,10 +4,10 @@ class GradeProcessor {
   }
 
   #getGradeLetter(avg) {
-    if (avg >= 90) return 'A';
-    if (avg >= 80) return 'B';
-    if (avg >= 70) return 'C';
-    if (avg >= 60) return 'D';
+    if (avg >= 80) return 'A';
+    if (avg >= 70) return 'B';
+    if (avg >= 60) return 'C';
+    if (avg >= 50) return 'D';
     return 'F';
   }
 
