@@ -1,6 +1,4 @@
-import { FlightBooking } from './FlightBooking.js';
-
-export class BookingValidator {
+ class BookingValidator {
   constructor(bookings) {
     this.bookings = bookings;
   }
@@ -21,3 +19,4 @@ export class BookingValidator {
                  .map(({ passengerName, status }) => ({ passengerName, status }));
   }
 }
+module.exports = BookingValidator;

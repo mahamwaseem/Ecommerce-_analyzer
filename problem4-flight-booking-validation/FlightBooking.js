@@ -1,4 +1,4 @@
-export class FlightBooking {
+class FlightBooking {
   constructor(passengerName, flightNumber, date, baggageWeight) {
     this.passengerName = passengerName;
     this.flightNumber = flightNumber;
@@ -6,3 +6,4 @@ export class FlightBooking {
     this.baggageWeight = baggageWeight;
   }
 }
+module.exports = FlightBooking;

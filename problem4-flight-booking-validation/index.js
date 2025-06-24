@@ -1,5 +1,5 @@
-import { FlightBooking } from './FlightBooking.js';
-import { BookingValidator } from './BookingValidator.js';
+const FlightBooking = require( './FlightBooking.js');
+const BookingValidator = require('./BookingValidator.js');
 
 const bookings = [
   new FlightBooking('Ali', 'PK001', '2025-07-01', 20),
